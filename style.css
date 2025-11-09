@@ -24,7 +24,7 @@ main {
     height: calc(100vh - 100px);
 }
 
-#simulation-container {
+#simulator-container {
     flex: 3;
     background: black;
 }
