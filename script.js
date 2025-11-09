@@ -1,4 +1,4 @@
-const container = document.getElementById('simulation-container');
+const container = document.getElementById('simulator-container');
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
 
