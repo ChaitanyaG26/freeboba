@@ -1,9 +1,42 @@
-img {
-    height:750px;
-}
 body {
+    margin:0;
+    font-family: 'Ariel', sans-serif;
+    background: #111;
+    color: #eee;
+}
+
+header {
+    background: #222;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #eee;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+#simulation-container {
+    flex: 3;
+    background: black;
+}
+
+#info {
+    flex: 1;
+    padding: 20px;
+    background: #1b1b1b;
+}
+
+#footer {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #94b1ff;
-    color: black;
+    background: #222;
+    padding: 10px;
 }
